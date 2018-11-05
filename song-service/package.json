@@ -1,0 +1,19 @@
+{
+  "name": "song-service",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tests": "mocha --compilers js:babel-core/register -R spec **/spec/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "mongoose": "^5.3.9"
+  }
+}
