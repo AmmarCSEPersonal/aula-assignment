@@ -1,5 +1,5 @@
 export default {
-    dbUri: 'mongodb://localhost/songs_dev',
-    appName: 'aula-assignment-dev',
+    dbUri: 'mongodb://localhost/users_dev',
+    appName: 'aula-assignment-users-dev',
     appVersion: '1.0.0'
 }
