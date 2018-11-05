@@ -5,7 +5,8 @@
   "scripts": {
     "tests": "mocha --compilers js:babel-core/register -R spec **/spec/*.js",
     "integration-tests": "cross-env NODE_ENV=test ./node_modules/.bin/babel-node src/models/db/seeder.js&& cross-env NODE_ENV=test mocha --compilers js:babel-core/register -R spec integration-tests/*.js",
-    "seed": "cross-env NODE_ENV=development ./node_modules/.bin/babel-node src/models/db/seeder.js"
+    "seed": "cross-env NODE_ENV=development ./node_modules/.bin/babel-node src/models/db/seeder.js",
+    "start": "cross-env NODE_ENV=development ./node_modules/.bin/babel-node index.js"
   },
   "devDependencies": {
     "chai": "^4.2.0",
