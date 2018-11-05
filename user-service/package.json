@@ -1,0 +1,13 @@
+{
+  "name": "user-service",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tests": "mocha --compilers js:babel-core/register -R spec **/spec/*.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
