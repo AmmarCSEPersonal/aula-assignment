@@ -15,7 +15,6 @@ describe('users api', () => {
             const service = await startService(); 
 
             const [error, response] = await to(chai.request(service).get('/users'));
-            console.log(101, error);
             response.should.have.status(200);
             response.body.should.be.a('array');
         });
