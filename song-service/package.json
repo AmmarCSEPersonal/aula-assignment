@@ -3,7 +3,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "tests": "mocha --compilers js:babel-core/register -R spec **/spec/*.js"
+    "tests": "mocha --compilers js:babel-core/register -R spec **/spec/*.js",
     "integration-tests": "NODE_ENV=test ./node_modules/.bin/babel-node src/models/db/seeder.js && mocha --compilers js:babel-core/register -R spec integration-tests/*.js"
   },
   "devDependencies": {
