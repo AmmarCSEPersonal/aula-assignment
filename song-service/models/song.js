@@ -4,8 +4,8 @@ const songSchema = new mongoose.Schema({
     uri: { type: String, required: true },
     artist: { type: String },
     length: { type: String },
-    genre: { type: String },
-    format: { type: String },
+    genre: { type: String, enum: ['Educational', 'Soothing', 'Spiritual', 'Comedy'] },
+    format: { type: String, enum: ['mp3', 'wav', 'ogg'] },
     publisher: { type: String }
 });
  
