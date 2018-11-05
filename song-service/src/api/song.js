@@ -1,10 +1,11 @@
 import httpStatus from 'http-status';
+import to from 'await-to-js';
+import Song from '../models/song';
 
 function api(app){
-  app.get('/songs', (req, res, next) => {
-    //const [error, rectifications] = await to(Rectification.find({}, '-_id -__v'));
-    const songs = [];
-    res.send(httpStatus.OK, songs);  
+  app.get('/songs', async (request, response, next) => {
+    const [error, songs] = await to(Song.find({}, '-_id -__v'));
+    response.send(httpStatus.OK, songs);  
     next();
   })
 
