@@ -1,8 +1,11 @@
+import httpStatus from 'http-status';
+
 function api(app){
   app.get('/songs', (req, res, next) => {
     //const [error, rectifications] = await to(Rectification.find({}, '-_id -__v'));
-    //res.send(httpStatus.OK, rectifications);  
-    //next();
+    const songs = [];
+    res.send(httpStatus.OK, songs);  
+    next();
   })
 
   /*app.get('/movies/premieres', (req, res, next) => {
