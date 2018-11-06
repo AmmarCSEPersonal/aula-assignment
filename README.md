@@ -32,9 +32,10 @@ Start the service
 ```
 $ yarn start
 ```
-
+### Architecture
 ![aula-assignment-diagram](https://user-images.githubusercontent.com/44700926/48043615-38d7b100-e190-11e8-9040-b55bfcbb2b62.png)
-*Solid lined and non-italicized has been implemented. Dashed and italicized is marked for improvement.
+
+*Solid lined and non-italicized has been implemented. Dashed and italicized is marked for improvement.*
 
 ### Conventions
 
