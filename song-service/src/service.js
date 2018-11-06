@@ -19,7 +19,7 @@ async function launchSequence(service) {
 
 async function listen(service){
     api(service, {});
-    return await service.listen(8080);
+    return await service.listen();
 }
 
 export default async function startService(){
