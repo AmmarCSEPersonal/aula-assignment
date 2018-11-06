@@ -45,7 +45,8 @@ Latest ES features are used. `async/await` should be used in place of (explicit)
 
 **Arrow vs regular functions**
 When to use arrow functions and when to use regular functions?
-TLDR is in this ![SO answer](https://stackoverflow.com/questions/22939130/when-should-i-use-arrow-functions-in-ecmascript-6)
+
+`TLDR` from this [SO answer](https://stackoverflow.com/questions/22939130/when-should-i-use-arrow-functions-in-ecmascript-6)
 ```
 Use function in the global scope and for Object.prototype properties.
 
